@@ -1,13 +1,13 @@
 # Python-RobotFramework
 Robot Framework is a common open-source automation framework for Acceptance Testing, Acceptance  Test-Driven Development (ATTD), and Robotic Process Automation (RPA). It uses a keyword-driven testing technology approach and the capabilities can be extended by testing libraries that can be implemented in Python or Java. 
 //
-python --version
-pip --version
+# python --version
+# pip --version
 //
-pip install robotframework
+# pip install robotframework
 //
-robot --version
-rebot --version
+# robot --version
+# rebot --version
 //
 Standard Libraries in robot framework
 There are a bunch of standard libraries in the robot framework. Let’s discuss one by one
@@ -22,10 +22,10 @@ Screenshot is a test library for taking screenshots on the machine where the tes
 String is a library used for string manipulations and verification.
 Telnet provides communication over a telnet connection. The telnet library makes it possible to connect to a telnet server and execute commands over an open connection.
 XML is also a robot framework text library for verifying and modifying XML documents.
-Built-in Tools
+# Built-in Tools
 There are mainly four built-in tools that are used in robot framework that are:
 
-Testdoc – Robot Framework generates high-level HTML documentation based on test cases.
-Rebot – Tools to generate logs and reports based on XML output and merge multiple outputs simultaneously.
-Tidy – Robot Framework Tools for cleaning and changing the format of data files.
-Libdoc – Tools for generating keyword documentation for libraries and resource files.
+# Testdoc – Robot Framework generates high-level HTML documentation based on test cases.
+# Rebot – Tools to generate logs and reports based on XML output and merge multiple outputs simultaneously.
+# Tidy – Robot Framework Tools for cleaning and changing the format of data files.
+# Libdoc – Tools for generating keyword documentation for libraries and resource files.
